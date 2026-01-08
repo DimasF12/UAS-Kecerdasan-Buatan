@@ -50,7 +50,7 @@ Model yang digunakan adalah **Gradient Boosting Classifier** dengan konfigurasi:
 
 - **Number of Estimators**: `150`
 - **Learning Rate**: `0.1`
-- **Max Depth**: `5`
+- **Max Depth**: `10`
 
 Konfigurasi ini menjaga keseimbangan antara performa model dan risiko overfitting.
 
@@ -61,8 +61,9 @@ Konfigurasi ini menjaga keseimbangan antara performa model dan risiko overfittin
 Evaluasi dilakukan menggunakan **20% data uji** yang tidak pernah dilihat sebelumnya.
 
 **Hasil Evaluasi:**
-- **Accuracy**: ~97%
+- **Accuracy**: ~96%
 - **Spam Recall**: ~99%
+- **Ham Recall**: ~96%
 
 Model memiliki sensitivitas tinggi dalam mendeteksi email spam.
 
